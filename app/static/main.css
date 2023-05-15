@@ -1,0 +1,13 @@
+.err-msg{
+    color:red
+}
+body {
+    background-color: rgb(252, 226, 230);
+  }
+
+/* body {
+    background-image: url('images/princessimage.webp');
+    background-size: cover;
+    background-color: rgba(200, 200, 200, 0.2);
+} */
+

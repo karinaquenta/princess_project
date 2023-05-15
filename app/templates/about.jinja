@@ -1,0 +1,107 @@
+{% extends "base.jinja" %}
+
+{% block content %}
+    <h3>About Page</h3>
+
+    <!DOCTYPE html>
+<html>
+<head>
+	<title>Disney Princesses</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		h1 {
+			text-align: center;
+			margin: 50px 0;
+		}
+		.princess {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 50px;
+			padding: 20px;
+			border: 2px solid black;
+		}
+		.princess img {
+			max-width: 300px;
+			margin-right: 20px;
+		}
+		.princess .bio {
+			flex: 1;
+		}
+	</style>
+</head>
+<body>
+	<h1>Disney Princesses</h1>
+
+	<div class="princess">
+		<img src="static/images/aurora.png" alt="Aurora">
+		<div class="bio">
+			<h2>Aurora</h2>
+			<p>Princess Aurora, also known as Sleeping Beauty, is gentle and kind. Raised in the forest by three fairies, Aurora dreams of meeting her true love, but is cursed by the evil Maleficent to fall into a deep sleep on her sixteenth birthday.</p>
+		</div>
+	</div>
+
+	<div class="princess">
+		<img src="static/images/belle.png" class="img-fluid" alt="Belle">
+		<div class="bio">
+			<h2>Belle</h2>
+			<p>Princess Belle is a book-loving girl who dreams of adventure. She sacrifices herself to save her father from the Beast's castle and eventually learns to see beyond the Beast's appearance and falls in love with him.</p>
+		</div>
+	</div>
+
+	<div class="princess">
+		<img src="static/images/cinderella.png" alt="Cinderella">
+		<div class="bio">
+			<h2>Cinderella</h2>
+			<p>Princess Cinderella is a kind-hearted girl who is mistreated by her stepmother and stepsisters. With the help of her fairy godmother, she attends the ball and falls in love with Prince Charming.</p>
+		</div>
+	</div>
+    <div class="princess">
+		<img src="static/images/snow.png" alt="Snow White" width="200">
+		<div class="bio">
+        <h2>Snow White</h2>
+		<p>Snow White is a kind and gentle princess who lives with seven dwarfs in a forest. She is known for her beauty and her ability to communicate with animals.</p>
+	    </div>
+    </div>
+    <div class="princess">
+		<img src="static/images/ariel.png" alt="Ariel" width="200">
+		<div class="bio">
+        <h2>Ariel</h2>
+		<p>Ariel is a curious and adventurous princess who longs to explore the human world. She falls in love with a human prince and makes a deal with the sea witch to become human herself.</p>
+	 </div>
+     </div>
+     <div class="princess">
+		<img src="static/images/jasmine.png" alt="Jasmine" width="200">
+		<div class="bio">
+        <h2>Jasmine</h2>
+		<p>Jasmine is a spirited and strong-willed princess who is confined to the palace by her father. She falls in love with Aladdin, a street urchin who shows her a world beyond her sheltered life.</p>
+	 </div>
+    </div>
+    <div class="princess">
+		<img src="static/images/pocahontas.png" alt="Pocahontas" width="200">
+		<div class="bio">
+        <h2>Pocahontas</h2>
+		<p>Pocahontas is a brave and free-spirited princess who befriends John Smith, an English settler. She teaches him about the ways of her people and helps to bring peace between the English and the Native Americans.</p>
+	 </div>
+    </div>
+	<div class="princess">
+		<img src="static/images/mulan.png" alt="Mulan" width="200">
+		<div class="bio">
+        <h2>Mulan</h2>
+		<p>Mulan is a courageous and resourceful princess who disguises herself as a man to join the army and protect her father. She proves herself to
+	 </div>
+    </div>
+    <!-- Add more princesses here -->
+
+</body>
+</html>
+{% endblock %}
+
+   
+
+

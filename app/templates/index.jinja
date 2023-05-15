@@ -1,0 +1,30 @@
+{% extends "base.jinja" %}
+    
+{% block content %} 
+    <div style="text-align: center;">
+    <h5>Learn about Disney Princess' and create your own page!</h5>
+    <h5>Post and connect with other Princess lovers!</h5>
+    <h3>TOP PRINCESS OF THE WEEK!</h3>
+    
+    <div class="princess">
+		<img src="static/images/belle.png" alt="Belle">
+		<div class="bio">
+			<h2>Belle</h2>
+			<p>Princess Belle is a book-loving girl who dreams of adventure. She sacrifices herself to save her father from the Beast's castle and eventually learns to see beyond the Beast's appearance and falls in love with him.</p>
+		</div>
+	</div>
+      <h3>TOP DISNEY MOVIE OF THE WEEK!</h3>
+      <img src="static/images/aladin.png" alt="Aladdin">
+      <h2>Aladdin</h2>
+      <p>The story follows the adventures of a young street urchin named Aladdin, who falls in love with the beautiful Princess Jasmine and finds a magic lamp containing a genie who grants him three wishes. However, he must face the evil sorcerer Jafar, who seeks to use the genie's power for his own nefarious purposes. Along the way, Aladdin learns important lessons about honesty, bravery, and selflessness. </p>
+    </div>
+    <p>{{ movies[0] }} {{ movies[1] }} {{ movies[2] }}</p>
+    <h3>Princess List</h3>
+    {% for student in students %}
+    <p>{{ student }}</p>
+    {% endfor %}
+{% endblock %}
+
+
+
+
